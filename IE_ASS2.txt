@@ -1,0 +1,46 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+cout<<"Compute for the area and perimeter of rectangle"<<endl;
+int L, W, arec,prec , b, h, atr, ptr,t1, t2, t3, asq, psq, s;
+cout<<"Enter the Length"<<endl;
+cin>>L;
+cout<<"Enter the Width"<<endl;
+cin>>W;
+arec=W*L;
+cout<<"The Area of the rectangle is:"<<arec<<endl;
+prec=(W+L)*2;
+cout<<"The Perimeter of the rectangle is:"<<prec<<endl;
+
+
+cout<<"Compute for the area of triangle"<<endl;
+cout<<"Enter the Base"<<endl;
+cin>>b;
+cout<<"Enter the Height"<<endl;
+cin>>h;
+atr=(b*h)/2;
+cout<<"The Area of the triangle is:"<<atr<<endl;
+
+cout<<"Compute for the perimeter of triangle"<<endl;
+cout<<"Enter the 1st side of triangle"<<endl;
+cin>>t1;
+cout<<"Enter the 2nd side of triangle"<<endl;
+cin>>t2;
+cout<<"Enter the 3rd side of triangle"<<endl;
+cin>>t3;
+ptr=t1+t2+t3;
+cout<<"The Perimeter of the rectangle is:"<<ptr<<endl;
+
+
+cout<<"Compute for the area of square"<<endl;
+cout<<"Enter the measurement of the side"<<endl;
+cin>>s;
+asq=s*s;
+cout<<"The Area of the square is:"<<asq<<endl;
+psq=s*4;
+cout<<"The Perimeter of the square is:"<<psq<<endl;
+
+return 0;
+}
